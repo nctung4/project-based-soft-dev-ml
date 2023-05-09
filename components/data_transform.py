@@ -1,3 +1,8 @@
+from datetime import datetime
+import pandas as pd
+import numpy as np
+
+
 def drop_unnecessary_observations(df_student):
     # Drop old system
     drop_old_system_students = df_student.loc[df_student['AdmissionSemester']
